@@ -1,0 +1,29 @@
+{
+  "name": "portifolio-automa-ao-com-typerscript",
+  "version": "1.0.0",
+  "description": "FAP-Aula-modulo-2",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "aula28": "tsx ./src/aula28/apis.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kesdras/Portifolio-automa-ao-com-TyperScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kesdras/Portifolio-automa-ao-com-TyperScript/issues"
+  },
+  "homepage": "https://github.com/Kesdras/Portifolio-automa-ao-com-TyperScript#readme",
+  "devDependencies": {
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

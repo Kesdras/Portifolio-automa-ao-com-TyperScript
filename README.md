@@ -1,2 +1,2 @@
-# Portifolio-automa-ao-com-TyperScript
+# Portifolio-automacao-com-TyperScript-modulo2
 FAP-Aula-modulo-2
