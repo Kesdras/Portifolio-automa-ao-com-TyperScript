@@ -1,17 +1,18 @@
-import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/login.page";
+import { test, expect } from '@playwright/test';
+import { loginPage } from "../pages/login.page";
 
-let loginPage: LoginPage;
+let login: loginPage;
 
 test.beforeEach(async ({ page }) => {
-    loginPage = new LoginPage(page);
-    await loginPage.acessarSite();
-})
+  login = new loginPage(page);
+  await login.acesarSite();
+});
 
 test('login com sucesso', async ({ page }) => {
-    await loginPage.login("standard_user", "secret_sauce");
-})
-test('Login com falha', async ({ page }) => {
-    await loginPage.login("usuario_errado", "secret_sauce");
-    await expect(loginPage.alert).toHaveText("Epic sadface: Username and password do not match any user in this service")
-})
+   await login.login("standard_user", "secret_sauce");
+});
+
+test('login com falha', async ({ page }) => { 
+   await login.login("usuario_errado", "secret_sauce");
+   await expect(login.alert).toHaveText("Epic sadface: Username and password do not match any user in this service");
+});

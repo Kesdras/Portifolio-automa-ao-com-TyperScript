@@ -1,11 +1,8 @@
 {
-  "name": "jogar-largo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "kalleby_Turma_4",
+  "packageManager": "yarn@4.18.0",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.6.2"
-  },
-  "scripts": {}
+  }
 }
